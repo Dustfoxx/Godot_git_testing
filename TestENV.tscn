@@ -8,9 +8,9 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+top_level = true
 position = Vector2(100, 0)
 rotation = 0.507891
-top_level = true
 collision_layer = 133
 script = ExtResource("1_sljcn")
 
