@@ -1,5 +1,7 @@
 extends CharacterBody2D
 
+# comments
+
 @export var speed = 400
 @export var acceleration = 0
 
