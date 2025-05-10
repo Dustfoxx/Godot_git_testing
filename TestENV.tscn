@@ -10,6 +10,8 @@
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 position = Vector2(100, 0)
 rotation = 0.507891
+top_level = true
+collision_layer = 133
 script = ExtResource("1_sljcn")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
@@ -18,3 +20,5 @@ shape = SubResource("CircleShape2D_bobkx")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
 texture = ExtResource("1_l8keu")
+
+[node name="AudioListener2D" type="AudioListener2D" parent="CharacterBody2D"]
