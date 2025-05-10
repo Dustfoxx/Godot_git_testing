@@ -8,6 +8,8 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(100, 0)
+rotation = 0.507891
 script = ExtResource("1_sljcn")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
