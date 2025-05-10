@@ -45,12 +45,6 @@ func get_input(delta):
 		if acceleration > 1:
 			acceleration = 1
 		velocity = input_direction * speed * acceleration
-	else:
-		if acceleration > 0:
-			acceleration -= 0.7*delta
-		if acceleration < 0:
-			acceleration = 0
-		velocity *= acceleration 
 	
 	if !rotating:
 		rotating = Input.is_action_pressed("space")
